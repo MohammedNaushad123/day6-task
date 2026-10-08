@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        background-color: burlywood;
+      }
+       * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: black;
+      border-radius: 10px;
+      padding: 15px 25px;
+      min-height: 180px;
+    }
+  
+    p {
+      color: red;
+      margin-top: 20px;
+      margin-left: 0;
+      width: 3px;
+      background-color: white;
+      border-radius: 50%;
+      
+    }
+    .bottom-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 20px;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .menu {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .menu a {
+      text-decoration: none;
+      background-color: white;
+      padding: 10px 18px;
+      border-radius: 10px;
+      border: 2px solid red;
+      color: blueviolet;
+      display: inline-block;
+    }
+    .search-box {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    #box {
+      padding: 6px 10px;
+      width: 220px;
+      border: 10px solid red;
+    }
+    #tt {
+      border: 10px solid red;
+      border-radius: 10px;
+      padding: 7px 12px;
+      background-color: blueviolet;
+      color: white;
+      /* cursor: pointer; */
+    }
+    </style>
+</head>
+<body>
+      <nav>
+  
+    
+    <p>
+      <img src="inno.png">
+    </p>
+    <div class="bottom-row">
+      <div class="menu">
+        <a href="">Home</a>
+        <a href="">Course</a>
+        <a href="">Fees</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search the course" id="box">
+        <button type="submit" id="tt">Search Here</button>
+      </div>
+    </div>
+  </nav>
+</body>
+</html>
